@@ -21,15 +21,21 @@ var numbers="1234567890"
 function writePassword(){
 var specialCharactersPop=confirm("Do you want special character?")
 var lowerCaseAlphabetPop=confirm("Do you want lowercase alphabet?")
-var upperCaseAlphabet=confirm("Do you want uppercase alphabet?")
+var upperCaseAlphabetPop=confirm("Do you want uppercase alphabet?")
 var num=confirm("Do you want number?")
 var passLength=prompt("Enter a password length from 8 to 128 character")
 
 if(passLength < 8 || passLength > 128){
 alert("Invalid Selection.Try again.!!");
 var passLength=prompt("Enter a password length from 8 to 128 character")
-}else if(specialCharactersPop ===false && lowerCaseAlphabetPop===false && upperCaseAlphabet==false && num===false)
-  alert("You should choose altleast one")
+}
+
+else if(specialCharactersPop ===false && lowerCaseAlphabetPop===false && upperCaseAlphabetPop==false && num===false){
+  alert("You should choose altleast one");
+var specialCharactersPop=confirm("Do you want special character?")
+var lowerCaseAlphabetPop=confirm("Do you want lowercase alphabet?")
+var upperCaseAlphabetPop=confirm("Do you want uppercase alphabet?")
+var num=confirm("Do you want number?")
 }
 
 
@@ -49,17 +55,20 @@ var passLength=prompt("Enter a password length from 8 to 128 character")
   specialCharacters+ upperCaseAlphabet + lowerCaseAlphabet
  }
 
- function generatepass(){
-  var charset= specialCharacters+ upperCaseAlphabet+ lowerCaseAlphabet+ numbers;
-  var password="";
-  for ( var i=0; i<passLength; i++){
-    var randomIndex= Math.floor(Math.random()* charset.length)
-    password += charset[randomIndex];
-  }return password;
+
+ for (var i=0; i<passLength; i++){
+ var randomPass= Math.floor(Math.random()* i.length); 
+ }return (randomPass);
+ 
 }
 
-
-
-
-
-
+//  function generatepass(){
+//   var charset= specialCharacters+ upperCaseAlphabet+ lowerCaseAlphabet+ numbers;
+//   var password="";
+//   for ( var i=0; i<passLength; i++){
+//     var randomIndex= Math.floor(Math.random()* charset.length)
+//     password += charset[randomIndex];
+//   }return password;
+// }
+// generatepass()
+// }
