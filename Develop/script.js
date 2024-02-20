@@ -18,10 +18,10 @@ var upperCaseAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 var numbers = "1234567890"
 
 function generatePassword() {
-  var specialPop = confirm("Do you want special character?")
-  var lowerCasePop = confirm("Do you want lowercase alphabet?")
-  var upperCasePop = confirm("Do you want uppercase alphabet?")
-  var num = confirm("Do you want number?")
+  var specialPop = confirm("Do you want your password to include special character?")
+  var lowerCasePop = confirm("Do you want your password to include lowercase alphabet?")
+  var upperCasePop = confirm("Do you want your password to include uppercase alphabet?")
+  var num = confirm("Do you want your password to include number?")
 
   if (!specialPop && !lowerCasePop && !upperCasePop && !num) {
     alert("You should choose altleast one");
