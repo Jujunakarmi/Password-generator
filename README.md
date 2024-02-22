@@ -6,11 +6,11 @@ This application is very easy to use.It can be used in web browser. It is a rand
 You can try password generator: [Click here to try](https://jujunakarmi.github.io/Password-generator/)
 
 Here are some of the screenshots:
-![First page of screenshot](images/screenshot-1.png)
-![Second page of screenshot](images/screenshot-2.png)
-![Third page of screenshot](images/screenshot-3.png)
-![Forth page of screenshot](images/screenshot-4.png)
-![Fifth page of screenshot](images/screenshot-5.png)
+![First page of screenshot](images/Screenshot-1.png)
+![Second page of screenshot](images/Screenshot-2.png)
+![Third page of screenshot](images/Screenshot-3.png)
+![Forth page of screenshot](images/Screenshot-4.png)
+![Fifth page of screenshot](images/Screenshot-5.png)
 
 # Usage
 
