@@ -24,16 +24,16 @@ function generatePassword() {
   var num = confirm("Do you want your password to include number?")
 
   if (!specialPop && !lowerCasePop && !upperCasePop && !num) {
-    alert("You should choose altleast one");
+    alert("You should choose altleast one.");
     return null
   }
-
+//function??
   var passLength = Number(prompt("Enter a password length from 8 to 128 character"))
 
-  if (passLength < 8 || passLength > 128) {
-    alert("Invalid Selection.Try again.!!");
-    return null
-  }
+   if (passLength < 8 || passLength > 128) {
+      alert("You must select a number between 8 to 128.");
+      return null
+    }
 
   var possibleCharacter = ""
   var forcedCharacter = ""
